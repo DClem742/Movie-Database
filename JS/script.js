@@ -10,6 +10,7 @@ const form = document.getElementById('form');
 const search = document.getElementById('search');
 
 function showWelcomeMessage() {
+    document.body.classList.add('welcome-page');
     main.innerHTML = `
         <div class="welcome-message">
             <h2>Welcome to the Movie Database</h2>
@@ -17,7 +18,6 @@ function showWelcomeMessage() {
         </div>
     `;
 }
-
 showWelcomeMessage();
 
 function getMovies(url) {
