@@ -1,17 +1,21 @@
+/* Apply border-box sizing to all elements */
 * {
     box-sizing: border-box;
 }
 
+/* Basic body styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f0f0f0;
 }
 
+/* Header styles */
 header {
     margin-bottom: 2rem;
 }
 
+/* Search form styles */
 #form {
     width: 100%;
     max-width: 600px;
@@ -19,6 +23,7 @@ header {
     justify-content: center;
 }
 
+/* Search input styles */
 .search {
     width: 100%;
     padding: 0.5rem;
@@ -27,6 +32,7 @@ header {
     border-radius: 5px;
 }
 
+/* Main content container styles */
 #main {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +40,7 @@ header {
     padding: 1rem;
 }
 
+/* Individual movie card styles */
 .movie {
     width: 300px;
     margin: 1rem;
@@ -43,12 +50,14 @@ header {
     overflow: hidden;
 }
 
+/* Movie poster image styles */
 .movie img {
     width: 100%;
     height: 450px;
     object-fit: cover;
 }
 
+/* Movie info section styles */
 .movie-info {
     padding: 1rem;
 }
@@ -57,11 +66,13 @@ header {
     margin-top: 0;
 }
 
+/* Movie overview section styles */
 .overview {
     padding: 1rem;
     background-color: #f9f9f9;
 }
 
+/* Welcome page specific styles */
 body.welcome-page {
     background-image: url('popcorn-1.jpg');
     background-size: cover;
@@ -74,6 +85,7 @@ body.welcome-page {
     align-items: center;
 }
 
+/* Welcome message styles */
 .welcome-message {
     text-align: center;
     padding: 2rem;
