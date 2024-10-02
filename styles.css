@@ -7,7 +7,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f0f0f0;
+    background-image: url('https://img.freepik.com/free-photo/top-view-variety-popcorn-with-3d-glasses_23-2148529920.jpg?t=st=1727889025~exp=1727892625~hmac=9d40f0ecbcd89e7e5e86106899bcbfac5d0abc4ff047c7157878d12bbfa78a8e&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 /* Header styles */
@@ -74,11 +78,6 @@ header {
 
 /* Welcome page specific styles */
 body.welcome-page {
-    background-image: url('popcorn-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
