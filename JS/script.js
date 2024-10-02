@@ -72,5 +72,6 @@ form.addEventListener('submit', (e) => {
     const searchTerm = search.value; //get the search term from the input field
     if(searchTerm) { ///if the search term is not empty
         getMovies(SEARCH_URL + searchTerm); //Fetch for movies with the search term
+        search.value = ''; // Clear the search input after submission
     }
 });
